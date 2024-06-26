@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "All Bills Arena",
+    "slug": "all-bills-arena-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/37b330df-af9c-4275-bab8-c4be92dc17a2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dreycodetechnology.allbillsarena"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.dreycodetechnology.allbillsarena"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37b330df-af9c-4275-bab8-c4be92dc17a2"
+      }
+    },
+    "owner": "dreycodetechnology",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
